@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="itsco.edu.miagenda.Main2Activity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="34dp"
+        android:id="@+id/txt_nombre"
+        android:hint="@string/hint_nombre" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/txt_nombre"
+        android:layout_alignEnd="@+id/txt_nombre"
+        android:layout_marginTop="35dp"
+        android:id="@+id/txt_movil"
+        android:hint="@string/hint_movil" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/txt_movil"
+        android:layout_alignEnd="@+id/txt_movil"
+        android:layout_marginTop="43dp"
+        android:id="@+id/txt_casa"
+        android:hint="@string/hint_casa" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/txt_casa"
+        android:layout_alignEnd="@+id/txt_casa"
+        android:layout_marginTop="42dp"
+        android:id="@+id/txt_email"
+        android:hint="@string/hint_email" />
+
+    <Button
+        android:text="@string/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="34dp"
+        android:id="@+id/btn_guardar"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:background="#E1BEE7"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btn_cancelar"
+        android:layout_marginEnd="34dp" />
+
+    <Button
+        android:text="@string/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="67dp"
+        android:id="@+id/btn_cancelar"
+        android:textAllCaps="false"
+        android:background="#E1BEE7"
+        android:textStyle="normal|bold"
+        android:layout_alignBaseline="@+id/btn_guardar"
+        android:layout_alignBottom="@+id/btn_guardar"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mi Agenda</string>
+    <string name="btn_nuevo">Nuevo Contacto</string>
+    <string name="btn_ok">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_movil">Movil</string>
+    <string name="hint_casa">Casa</string>
+    <string name="hint_email">Email</string>
+</resources>
